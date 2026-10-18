@@ -9,14 +9,15 @@ next: false
 | [← Lição anterior: Monitorar e gerenciar agentes][previous-lesson] |
 | :-- |
 
-## Revisar o trabalho
+## Revise o trabalho
 
 Ao longo deste laboratório, você trabalhou com o GitHub Copilot em várias tarefas voltadas a melhorar a experiência do usuário. Usou o modo de agente para adicionar filtragem no cliente e no servidor, o servidor MCP do Playwright para testar manualmente esse trabalho em um navegador e, depois, um agente personalizado para implementar recursos de acessibilidade — controles para alternar o alto contraste e o modo claro — e orientou a sessão em andamento para ampliar o trabalho. Agora é hora de publicar esse trabalho local e revisá-lo da mesma forma que sua equipe faria.
 
 ### Cenário
 
 Os fundamentos do design de software e do DevOps não mudam com a adição de IA generativa. Você ainda precisa de um ciclo real de revisão de tudo o que o Copilot produz. Com isso em mente, vamos enviar as alterações de acessibilidade do codespace ao repositório remoto, abrir um pull request e examinar o diff antes de envolver o restante da equipe.
-## Publicar os recursos de acessibilidade
+
+## Publique os recursos de acessibilidade
 
 Os controles de alto contraste e modo claro que você implementou com o agente personalizado de acessibilidade no [Exercício 4][exercise-4] e no [Exercício 5][exercise-5] estão no codespace como alterações registradas em commits. Vamos enviá-las para uma branch no repositório remoto e abrir um pull request para que o restante da equipe possa revisar.
 
@@ -38,12 +39,13 @@ Os controles de alto contraste e modo claro que você implementou com o agente p
 10. Se houver fluxos de trabalho aguardando aprovação, selecione **Approve and run workflows**.
 
     ![Aprovar e executar fluxos de trabalho](../../../_images/shared-approve-workflows.png)
+
 11. Aguarde a conclusão dos fluxos de trabalho. Se tudo correr bem, eles deverão passar.
 
 > [!TIP]
 > Quer uma segunda opinião sobre o trabalho de acessibilidade? Marque `@copilot` em um comentário no PR com uma solicitação como "revise este PR em busca de outros problemas relacionados às WCAG" ou "sugira melhorias na navegação por teclado". O Copilot iniciará uma nova sessão para atender ao comentário.
 
-## Exercício opcional - continuar explorando localmente
+## Exercício opcional - continue explorando localmente
 
 Trabalhar de forma iterativa com um agente no IDE é uma habilidade, e a única forma de desenvolvê-la é praticar. Algumas ideias para próximas sessões que você pode executar no VS Code:
 
@@ -54,7 +56,7 @@ Trabalhar de forma iterativa com um agente no IDE é uma habilidade, e a única 
 
 ## Resumo
 
-Parabéns — você concluiu a trilha do VS Code! Ao longo deste laboratório, você:
+Parabéns — você concluiu o percurso do VS Code! Ao longo deste laboratório, você:
 
 - **Usou o Playwright MCP para testar manualmente a funcionalidade.** Adicionou o servidor MCP do Playwright e deixou o Copilot controlar um navegador para verificar a funcionalidade de filtragem antes de abrir um pull request.
 - **Conduziu o modo de agente em alterações coordenadas por toda a stack.** Adicionou uma funcionalidade de filtragem que envolveu o cliente, o servidor e os testes em uma única sessão.
@@ -64,12 +66,12 @@ Parabéns — você concluiu a trilha do VS Code! Ao longo deste laboratório, v
 
 ## Revisão e próximos passos
 
-Isso encerra a trilha obrigatória do VS Code. Você pode parar aqui com o workshop concluído.
+Isso encerra o percurso obrigatório do VS Code. Você pode parar aqui com o workshop concluído.
 
-Se quiser ampliar sua perspectiva sobre os recursos de agente do Copilot, as outras trilhas abordam cenários relacionados em interfaces diferentes:
+Se quiser ampliar sua perspectiva sobre os recursos de agente do Copilot, os outros percursos abordam cenários relacionados em interfaces diferentes:
 
-- 💻 **[Trilha da CLI](../../cli/)** — execute fluxos semelhantes no terminal com o Copilot CLI: modo de planejamento, skills de agentes, agentes personalizados e comandos de barra, como `/share`, `/context` e `/delegate`.
-- ☁️ **[Trilha do agente na nuvem](../../cloud/)** — concentre-se em atribuir issues ao agente na nuvem, monitorar sessões pela página de agentes e iterar de forma assíncrona em pull requests.
+- 💻 **[Percurso do CLI](../../cli/)** — entregue duas alterações revisadas no terminal com os modos Plan e Autopilot, skills, um agente de QA personalizado, Playwright MCP, Agent Merge e transferências com reconhecimento de contexto.
+- ☁️ **[Percurso do agente de nuvem](../../cloud/)** — concentre-se em atribuir issues ao agente de nuvem, acompanhar sessões pela página de agentes e iterar de forma assíncrona sobre pull requests.
 
 Você também pode continuar desenvolvendo o que começou aqui. O [awesome-copilot][awesome-copilot] é uma ótima fonte de arquivos de instruções, agentes personalizados e skills que você pode adaptar aos seus projetos.
 
